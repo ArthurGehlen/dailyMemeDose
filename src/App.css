@@ -1,0 +1,76 @@
+body {
+  min-height: 100vh;
+  background-color: #031c30;
+}
+
+h1, h2, strong, button {
+  color: #fa8d3b;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+
+main {
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 35rem;
+  background-color: #5a3546;
+  padding: 2rem 4rem 2rem 4rem;
+  border-radius: 1rem;
+}
+
+p, a {
+  color: #fc6747;
+}
+
+main img {
+  max-width: 100%;
+}
+
+main button {
+  width: 100%;
+  padding: .8rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background-color: #031c30;
+  transition: .4s ease background-color, border;
+}
+
+main .ups_container {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .5rem 1.5rem;
+  background-color: #b5485f;
+  border-radius: 2rem;
+}
+
+main .ups_container svg, main .ups_container p {
+  color: #031c30;
+}
+
+main .ups_container p {
+  font-size: 1.4rem;
+}
+
+main .ups_container svg {
+  font-size: 1.8rem;
+}
+
+main button:hover {
+  background-color: transparent;
+  border: 1px solid #fa8d3b;
+}
+
+@media screen and (max-width: 476px) {
+  main {
+    padding: 1.5rem;
+  }
+}
