@@ -69,18 +69,6 @@ main button:hover {
   border: 1px solid #fa8d3b;
 }
 
-select {
-  padding: 1rem;
-  width: 100%;
-  border-radius: .6rem;
-  outline: none;
-  cursor: pointer;
-  background-color: #fa8d3b;
-  color: white;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
 @media screen and (max-width: 476px) {
   main {
     padding: 1.5rem;
